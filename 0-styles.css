@@ -79,49 +79,76 @@ a {
     text-decoration: none;
     line-height: 3.2rem;
 }
-main {
+.section-phones {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100%;
     text-align: center;
     color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
 }
-.phones-infos {
+.container.phones-infos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
+    width: 637px;
+    height: 313px;
+    top: 372px;
+    bottom: 115px;
 }
 .phone-title {
-    font-size: 1.8rem;
-    font-weight: 700;
-    margin-bottom: 0;
     height: 40px;
     left: 4.55%;
     right: 4.71%;
     top: calc(50% - 40px/2 - 136.5px);
-}
-.phone-subtitle {
-    font-size: .9rem;
-    font-weight: 700;
-    top: calc(50% - 20px/2 - 106px);
-    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
     line-height: 40px;
     text-align: center;
+    margin-top: 350px;
+    color: #FFFFFF;
+}
+.phone-subtitle {
+    height: 20px;
+    left: 22.14%;
+    right: 22.14%;
+    top: calc(50% - 20px/2 - 106.5px);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
 }
 .phone-description {
-    padding: 50px 400px 50px 400px;
-    text-align: center;
-    font-size: .8rem;
+    height: 104px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 104px/2 + 104.5px);
+    font-style: normal;
     font-weight: 400;
-    flex-wrap: wrap;
-    line-height: 1.6rem;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 50px;
+    color: #FFFFFF;
 }
 .btn {
+    left: 37.21%;
+    right: 37.36%;
+    top: 31.95%;
+    bottom: 53.99%;
+    margin-top: 40px;
+}
+.phone-btn {
     display: inline-block;
     background: #ff6565;
     border-radius: 2.2rem;
@@ -133,7 +160,6 @@ main {
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
-    margin-top: 2rem;
 }
 .icon-label {
     display: none;
