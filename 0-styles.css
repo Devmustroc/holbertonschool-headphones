@@ -19,7 +19,6 @@
 }
 body {
     height: 100vh;
-    overflow: hidden;
     margin: 0;
 }
 .container {
@@ -81,12 +80,11 @@ a {
 .container .phones-infos {
     display: flex;
     flex-direction: column;
+    padding: 15rem 10rem 25rem 18rem;
     justify-content: center;
     align-items: center;
-    padding: 20rem 5rem 20rem 5rem;
-    height: 100vh;
-    color: white;
     text-align: center;
+    color: white;
 }
 .container .phone-title {
     font-size: 1.6rem;
@@ -98,7 +96,7 @@ a {
     font-weight: 700;
     margin-top: 0;
 }
-.container .phone-description {
+.phone-description {
     text-align: center;
     font-size: .8rem;
     margin-top: 0;
