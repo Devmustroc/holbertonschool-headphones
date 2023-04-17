@@ -39,8 +39,14 @@ header {
 a {
     text-decoration: none;
 }
+.mobile-nav {
+    display: none;
+}
 .nav a:hover, .nav a:active{
     color: #FF6565;
+}
+#icon-btn {
+    display: none;
 }
 .mobile-nav {
     display: none;
@@ -165,28 +171,20 @@ a {
     display: none;
 }
 
-@media screen and (max-width: 775px) and (min-width: 580px) {
+@media screen and (max-width: 780px) and (min-width: 480px) {
+    .header {
+        justify-content: center;
+    }
+    .desktop-nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width:480px) {
     header {
-        padding: 1.8rem 1.25rem;
+        justify-content: center;
     }
-    .container-logo img {
-        width: 150px;
-    }
-    .nav ul li {
-        font-size: 1.3rem;
-        margin-left: 2.5rem;
-    }
-    .nav ul li a {
-        color: white;
-        font-size: 0.8rem;
-        font-weight: 700;
-        text-decoration: none;
-        line-height: 3.2rem;
-    }
-    main {
-        padding: 0 1.25rem;
-    }
-    .phones-infos {
-        padding: 2rem 10rem 2rem 10rem;
+    .desktop-nav {
+        display: none;
     }
 }
