@@ -37,8 +37,10 @@ header {
     left: 0;
 }
 a {
-    color: white;
     text-decoration: none;
+}
+.nav a:hover, .nav a:active{
+    color: #FF6565;
 }
 .mobile-nav {
     display: none;
@@ -77,29 +79,41 @@ a {
     text-decoration: none;
     line-height: 3.2rem;
 }
-.container .phones-infos {
+main {
     display: flex;
     flex-direction: column;
-    padding: 15rem 10rem 25rem 18rem;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+.phones-infos {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
 }
-.container .phone-title {
-    font-size: 1.6rem;
+.phone-title {
+    font-size: 1.8rem;
     font-weight: 700;
     margin-bottom: 0;
 }
-.container .phone-subtitle {
+.phone-subtitle {
     font-size: .9rem;
     font-weight: 700;
     margin-top: 0;
 }
 .phone-description {
     text-align: center;
-    font-size: .8rem;
-    margin-top: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 5rem 28em 1rem 28rem;
+    flex-wrap: wrap;
+
+    line-height: 1.8rem;
 }
 .btn {
     display: inline-block;
@@ -114,4 +128,33 @@ a {
     font-size: 14px;
     font-weight: 700;
     margin-top: 1rem;
+}
+.icon-label {
+    display: none;
+}
+
+@media screen and (max-width: 775px) and (min-width: 580px) {
+    header {
+        padding: 1.8rem 1.25rem;
+    }
+    .container-logo img {
+        width: 150px;
+    }
+    .nav ul li {
+        font-size: 1.3rem;
+        margin-left: 2.5rem;
+    }
+    .nav ul li a {
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 700;
+        text-decoration: none;
+        line-height: 3.2rem;
+    }
+    main {
+        padding: 0 1.25rem;
+    }
+    .phones-infos {
+        padding: 2rem 10rem 2rem 10rem;
+    }
 }
