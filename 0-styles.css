@@ -171,7 +171,7 @@ a {
     display: none;
 }
 
-@media screen and (max-width: 780px) and (min-width: 480px) {
+@media screen and (max-width: 780px) and (min-width: 680px) {
     .header {
         justify-content: center;
     }
@@ -180,11 +180,32 @@ a {
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:780px) and (min-width: 480px) {
     header {
         justify-content: center;
+        width: 50vh;
     }
     .desktop-nav {
         display: none;
+    }
+    .phone-title {
+        font-size: 24px;
+        line-height: 32px;
+        flex-wrap: wrap;
+    }
+    .phone-subtitle {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .phone-description {
+        height: 104px;
+        left: 0;
+        right: 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
     }
 }
