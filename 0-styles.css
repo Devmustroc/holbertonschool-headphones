@@ -82,7 +82,6 @@ a {
 main {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     height: 100%;
     text-align: center;
@@ -100,20 +99,27 @@ main {
     font-size: 1.8rem;
     font-weight: 700;
     margin-bottom: 0;
+    height: 40px;
+    left: 4.55%;
+    right: 4.71%;
+    top: calc(50% - 40px/2 - 136.5px);
 }
 .phone-subtitle {
     font-size: .9rem;
     font-weight: 700;
-    margin-top: 0;
+    top: calc(50% - 20px/2 - 106px);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    line-height: 40px;
+    text-align: center;
 }
 .phone-description {
+    padding: 50px 400px 50px 400px;
     text-align: center;
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 400;
-    padding: 5rem 28em 1rem 28rem;
     flex-wrap: wrap;
-
-    line-height: 1.8rem;
+    line-height: 1.6rem;
 }
 .btn {
     display: inline-block;
@@ -127,7 +133,7 @@ main {
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 .icon-label {
     display: none;
