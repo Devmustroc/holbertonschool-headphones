@@ -68,13 +68,37 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20rem 5rem 20rem 5rem;
     height: 100vh;
     color: white;
     text-align: center;
 }
 .container .phone-title {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 700;
     margin-bottom: 0;
 }
-
+.container .phone-subtitle {
+    font-size: .9rem;
+    font-weight: 700;
+    margin-top: 0;
+}
+.container .phone-description {
+    text-align: center;
+    font-size: .8rem;
+    margin-top: 0;
+}
+.btn {
+    display: inline-block;
+    background: #ff6565;
+    border-radius: 2.2rem;
+    border: none;
+    box-shadow: 10px 10px 50px 12px rgb(0 0 0 / 25%);
+    outline: none;
+    padding: 13px 31px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 1rem;
+}
