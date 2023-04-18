@@ -317,7 +317,7 @@ a {
         left: 0;
         top: 0;
         background: url("./images/headphones_hero_1.jpg") no-repeat center center/cover fixed;
-    "; background-size: cover;
+        "; background-size: cover;
     }
     .container-logo {
         display: flex;
@@ -375,11 +375,12 @@ a {
     }
 
     .phone-description {
-        height: 182px;
+        height: 300px;
         left: 3.08%;
         right: 3.08%;
-        top: calc(50% - 182px / 2 + 127px);
+        top: calc(50% - 300px / 2 + 300px);
         padding: 20px 20px;
+        margin-bottom: 20px;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -423,9 +424,9 @@ a {
         top: 10vh;
         right: 4rem;
         left: 4rem;
-        margin: 2.5rem auto;
+        margin: 2rem 2rem;
         max-width: 100%;
-        padding: 1rem 2rem;
+        padding: 1rem 2rem 4rem 2rem;
         text-align: center;;
     }
     .mobile-nav ul {
@@ -438,7 +439,7 @@ a {
         padding: 0;
     }
     .mobile-nav ul li {
-        margin: 1rem 0;
+        margin: .9rem 0;
     }
     input#icon-btn:checked ~ .mobile-nav {
         display: block;
@@ -470,13 +471,14 @@ a {
     align-items: center;
     max-width: 55rem;
     max-height: 55rem;
-    margin-top: 25rem;
+    margin-top: 30rem;
     margin-bottom: 9rem;
 }
 .section2-details-container {
     display: flex;
     flex-direction: row;
-    padding: 5px 20px;
+    justify-content: space-between;
+    margin: 0 40px 0 40px;
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: 100%;
@@ -542,6 +544,32 @@ a {
     line-height: 1.5rem;
     text-align: center;
 }
+/* min height big screen ====
+ ==================================================*/
+@media screnn and (max-height: 1080px) and (min-height: 900px) {
+    .section2-container {
+        max-width: 55rem;
+        max-height: 55rem;
+        margin-top: 50rem;
+        margin-bottom: 9rem;
+    }
+    }
+}
+@media screen and (max-height: 900px) and (min-height: 776px) {
+    .container.section-infos {
+        margin-top: 40rem;
+    }
+    .section2-container {
+        margin-top: 30rem;
+        margin-bottom: 5rem;
+    }
+}
+@media screen and (max-height: 775px) and (min-height: 700px) {
+    .section2-container {
+        margin-top: 23rem;
+        margin-bottom: 5rem;
+    }
+}
 @media screen and (max-width: 755px) and (min-width: 520px) {
     .section2-container {
         margin-top: 20rem;
@@ -573,7 +601,7 @@ a {
 }
 @media screen and (max-width: 520px) {
     .section2-container {
-        margin-top: 35rem;
+        margin-top: 33rem;
         margin-bottom: 15rem;
         padding: 0 2rem;
     }
