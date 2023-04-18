@@ -45,7 +45,7 @@ a {
 .nav a:hover, .nav a:active{
     color: #FF6565;
 }
-.section-phones.small-icon-handler {
+.section-phones input {
     display: none;
 }
 .mobile-nav {
