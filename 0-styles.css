@@ -212,11 +212,19 @@ a {
 
     .container {
         width: 100%;
-        height: 869px;
+        height: 900px;
         left: 0;
         top: 0;
         background: url("./images/headphones_hero_1.jpg") no-repeat center center/cover fixed;
     "; background-size: cover;
+    }
+    .container-logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        padding-left: 30px;
     }
 
     .desktop-nav {
@@ -232,6 +240,7 @@ a {
 
     .container.phones-infos {
         width: 100%;
+        padding-top:250px;
     }
 
     .phone-title {
@@ -280,13 +289,13 @@ a {
     .icon-handler {
         display: block;
         position: absolute;
-        top: 7rem;
         left: 1.5rem;
         height: 3px;
         width: 1.5rem;
         background-color: white;
         cursor: pointer;
         transition: transform .1s;
+        top: 75px;;
     }
 
     .icon-handler::before {
@@ -296,14 +305,57 @@ a {
         margin-top: -0.7rem;
         width: 2.25rem;
         transition: transform .1s;
+        top: 50px;
     }
-
     .icon-handler::after {
         content: '';
         display: block;
         border-top: 3px solid white;
         margin-top: 1.1rem;
-
-
+        width: 2.25rem;
+        transition: transform .3s;
+        top: 50px;
+    }
+    .mobile-nav{
+        display: none;
+        position: absolute;
+        top: 10vh;
+        right: 4rem;
+        left: 4rem;
+        margin: 2.5rem auto;
+        max-width: 100%;
+        padding: 1rem 2rem;
+        text-align: center;;
+    }
+    .mobile-nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .mobile-nav ul li {
+        margin: 1rem 0;
+    }
+    input#icon-btn:checked ~ .mobile-nav {
+        display: block;
+    }
+    input#icon-btn:checked ~ .phones-infos {
+        padding-top: 450px;
+    }
+    input#icon-btn:checked ~ .icon-handler {
+        width: 2.25rem;
+        transform: rotate(45deg);
+        transition: transform .3s;
+    }
+    input#icon-btn:checked ~ .icon-handler::after {
+        display: none;
+    }
+    input#icon-btn:checked ~ .icon-handler::before {
+        margin-top: 0;
+        transform: rotate(90deg);
+        transition: transform .3s;
     }
 }
