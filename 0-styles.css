@@ -45,7 +45,7 @@ a {
 .nav a:hover, .nav a:active{
     color: #FF6565;
 }
-#icon-btn {
+.section-phones.small-icon-handler {
     display: none;
 }
 .mobile-nav {
@@ -113,7 +113,7 @@ a {
     height: 40px;
     left: 4.55%;
     right: 4.71%;
-    top: calc(50% - 40px/2 - 136.5px);
+    top: calc(50% - 40px/2 - 136px);
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -126,7 +126,7 @@ a {
     height: 20px;
     left: 22.14%;
     right: 22.14%;
-    top: calc(50% - 20px/2 - 106.5px);
+    top: calc(50% - 20px/2 - 106px);
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -136,9 +136,9 @@ a {
 }
 .phone-description {
     height: 104px;
-    left: 0%;
-    right: 0%;
-    top: calc(50% - 104px/2 + 104.5px);
+    left: 0;
+    right: 0;
+    top: calc(50% - 104px/2 + 104px);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -166,46 +166,146 @@ a {
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
+    cursor: pointer;
+}
+.btn.phone-btn:hover {
+    background: #ff6565;
+    opacity: 0.8;
+}
+.btn.phone-btn:active {
+    background: #ff6565;
+    opacity: 0.6;
 }
 .icon-label {
     display: none;
 }
-
-@media screen and (max-width: 780px) and (min-width: 680px) {
-    .header {
-        justify-content: center;
+@media screen and (max-width: 755px) and (min-width: 481px) {
+    .container {
+        width: 100%;
     }
-    .desktop-nav {
-        display: none;
-    }
-}
-
-@media screen and (max-width:780px) and (min-width: 480px) {
-    header {
-        justify-content: center;
-        width: 50vh;
-    }
-    .desktop-nav {
-        display: none;
+    .container.phones-infos {
+        width: 100%;
     }
     .phone-title {
         font-size: 24px;
         line-height: 32px;
-        flex-wrap: wrap;
     }
     .phone-subtitle {
         font-size: 14px;
         line-height: 18px;
     }
     .phone-description {
-        height: 104px;
+        font-size: 14px;
+        line-height: 24px;
+        padding: 30px 20px
+    }
+    .phone-btn {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 481px) {
+    .body {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .container {
+        width: 100%;
+        height: 869px;
         left: 0;
-        right: 0;
+        top: 0;
+        background: url("./images/headphones_hero_1.jpg") no-repeat center center/cover fixed;
+    "; background-size: cover;
+    }
+
+    .desktop-nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container.phones-infos {
+        width: 100%;
+    }
+
+    .phone-title {
+        height: 40px;
+        left: 4.55%;
+        right: 4.71%;
+        top: calc(50% - 40px / 2 - 136px);
+        padding: 5px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .phone-subtitle {
+        height: 40px;
+        left: 10.92%;
+        right: 10.92%;
+        top: calc(50% - 40px / 2 - 113px);
+        margin-top: 50px;
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .phone-description {
+        height: 182px;
+        left: 3.08%;
+        right: 3.08%;
+        top: calc(50% - 182px / 2 + 127px);
+        padding: 20px 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
         line-height: 26px;
         text-align: center;
-        color: #FFFFFF;
+    }
+
+    .icon-handler {
+        display: block;
+        position: absolute;
+        top: 7rem;
+        left: 1.5rem;
+        height: 3px;
+        width: 1.5rem;
+        background-color: white;
+        cursor: pointer;
+        transition: transform .1s;
+    }
+
+    .icon-handler::before {
+        content: '';
+        display: block;
+        border-top: 3px solid white;
+        margin-top: -0.7rem;
+        width: 2.25rem;
+        transition: transform .1s;
+    }
+
+    .icon-handler::after {
+        content: '';
+        display: block;
+        border-top: 3px solid white;
+        margin-top: 1.1rem;
+
+
     }
 }
