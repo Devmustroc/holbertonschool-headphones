@@ -565,5 +565,38 @@ a {
         font-size: 0.6rem;
         line-height: 1rem;
     }
-
+}
+@media screen and (max-width: 520px) {
+    .section2-container {
+        margin-top: 35rem;
+        margin-bottom: 15rem;
+        padding: 0 2rem;
+    }
+    .section2-phone-what.what-wrapper {
+        margin-top: 2rem;
+        width: 100%;
+        left: 0;
+    }
+    .header-section2 {
+        margin-top: 5rem;
+        font-size: 20px;
+    }
+    .section2-description-header {
+        margin-bottom: 1rem;
+    }
+    .section2-details-container{
+        margin-top: 5rem;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .section2-icon span {
+        font-size: 5rem;
+    }
+    .section2-title {
+        font-size: 1rem;
+    }
+    .section2-description {
+        font-size: 0.6rem;
+        line-height: 1rem;
+    }
 }
