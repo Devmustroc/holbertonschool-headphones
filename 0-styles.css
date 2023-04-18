@@ -176,9 +176,7 @@ a {
     background: #ff6565;
     opacity: 0.6;
 }
-.icon-label {
-    display: none;
-}
+
 @media screen and (max-width: 755px) and (min-width: 481px) {
     .container {
         width: 100%;
