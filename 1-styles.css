@@ -61,6 +61,12 @@ header {
     right: 0;
     left: 0;
 }
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 a {
     text-decoration: none;
 }
@@ -383,4 +389,37 @@ a {
         transform: rotate(90deg);
         transition: transform .3s;
     }
+}
+.section2-container {
+    max-width: 55rem;
+    margin-top: 30rem;
+}
+.section2-details-container {
+    display: flex;
+    flex-direction: row;
+}
+.header-section2 h1 {
+    color: #071629;
+    text-align: center;
+    height: 40px;
+    left: 35.16%;
+    right: 35.01%;
+    top: calc(50% - 40px/2 - 72px);
+    font-size: 32px;
+    line-height: 38px;
+}
+.description-section2 {
+    height: 104px;
+    left: 0;
+    right: 0;
+    flex-wrap: wrap;
+    top: calc(50% - 104px/2 + 40px);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 15px 120px;
+    margin-bottom: 80px;
+    line-height: 26px;
+    text-align: center;
+    color: #071629;
 }
