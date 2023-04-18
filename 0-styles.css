@@ -7,6 +7,7 @@
     font-family: 'Spin Cycle';
     src: url('./fonts/Spin-Cycle-OT/spincycle_ot.otf');
 }
+
 :root {
     --font-family: 'Source sans pro', 'Spin Cycle', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-family-title: 'Spin Cycle', sans-serif;
