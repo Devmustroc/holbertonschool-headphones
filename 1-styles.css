@@ -275,6 +275,8 @@ a {
     background: #ff6565;
     opacity: 0.6;
 }
+/* Section 1  Responsive for tablets and mobiles
+   ==================================================*/
 
 @media screen and (max-width: 755px) and (min-width: 520px) {
     .container {
@@ -458,6 +460,9 @@ a {
         transition: transform .3s;
     }
 }
+/* Section 2  what we do
+   ==================================================*/
+
 .section2-container {
     display: flex;
     flex-direction: column;
