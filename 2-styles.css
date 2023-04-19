@@ -442,43 +442,18 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     width: 100%;
     background: #F8F8F8;
     padding: 0 0 100px 0;
 }
-.section2-details-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 50%;
-}
+
 .header-section2 h1 {
-    color: #071629;
-    text-align: center;
-    height: 40px;
-    left: 35.16%;
-    right: 35.01%;
-    top: calc(50% - 40px/2 - 72px);
-    font-size: 32px;
-    line-height: 38px;
-}
-.section2-phone-what.what-wrapper {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 20px 0 0 0;
-    width: 637px;
-    left: 382px;
+    justify-content: center;
+    color: #071629;
 }
+
 .section2-description-header {
-    height: 104px;
-    left: 0;
-    right: 0;
-    top: calc(50% - 104px/2 + 40px);
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -486,9 +461,17 @@ a {
     line-height: 26px;
     text-align: center;
     color: #071629;
-    margin-bottom: 2rem;
+    margin: 2rem 20rem 2rem 20rem
 }
-
+.section2-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 20rem 1rem 20rem;
+    flex-wrap: wrap;
+}
 .details-section2 {
     display: flex;
     flex-direction: column;
@@ -518,16 +501,25 @@ a {
 }
 
 @media screen and (max-width: 820px) and (min-width: 488px) {
+    .section2-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        background: #F8F8F8;
+    }
+    .section2-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .section2-phone-what.what-wrapper {
         left: 0;
         width: 100%;
         padding: 0 70px;
     }
     .section2-description-header {
-        height: 104px;
-        left: 8.72%;
-        right: 8.33%;
-        top: calc(50% - 104px/2 - 165px);
         width: auto;
         flex-wrap: wrap;
         font-style: normal;
@@ -539,7 +531,7 @@ a {
     .section2-details-container{
         flex-wrap: wrap;
         justify-content: space-evenly;
-        padding-top: 30px;
+        padding-top: 95px;
     }
     .section2-icon span {
         font-size: 5rem;
@@ -553,10 +545,13 @@ a {
     }
 }
 @media screen and (max-width: 488px) {
-    .section2-phone-what.what-wrapper {
+    .section2-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         width: 100%;
-        left: 0;
-        padding: 20px 10px;
+        background: #F8F8F8;
+        padding: 0 0 100px 0;
     }
     .header-section2 {
         margin-top: 5rem;
@@ -568,7 +563,7 @@ a {
     .section2-details-container{
         flex-wrap: wrap;
         justify-content: space-evenly;
-        padding-top: 30px;
+        padding-top: 95px;
     }
     .section2-icon span {
         font-size: 5rem;
@@ -636,7 +631,7 @@ a {
     text-align: center;
     flex-flow: row nowrap;
     flex-basis: 25%;
-    width: 100%;
+    width: 70%;
 }
 .section3-details-container img {
     width: 63%;
