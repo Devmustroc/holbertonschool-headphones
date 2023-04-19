@@ -110,7 +110,8 @@
     line-height: 3.2rem;
 }
 body {
-    height: 100%;
+    width: 100%;
+    height: 100vh;
     margin: 0;
 }
 .container {
@@ -195,6 +196,7 @@ a {
     color: white;
     width: 637px;
     padding-bottom: 150px;
+    margin: 244px 0 20px 0;
 }
 .phone-title {
     height: 40px;
@@ -439,8 +441,8 @@ a {
 .section2-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
     width: 100%;
     background: #F8F8F8;
     padding: 0 0 100px 0;
@@ -448,11 +450,10 @@ a {
 .section2-details-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     flex-wrap: wrap;
     flex-grow: 1;
     flex-shrink: 0;
-    flex-basis: 100%;
+    flex-basis: 50%;
 }
 .header-section2 h1 {
     color: #071629;
@@ -520,7 +521,7 @@ a {
     .section2-phone-what.what-wrapper {
         left: 0;
         width: 100%;
-        padding: 0 10px;
+        padding: 0 70px;
     }
     .section2-description-header {
         height: 104px;
@@ -633,8 +634,9 @@ a {
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
+    flex-flow: row nowrap;
+    flex-basis: 25%;
     width: 100%;
-    padding: 0 10rem 4rem 10rem;
 }
 .section3-details-container img {
     width: 63%;
