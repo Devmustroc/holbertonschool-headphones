@@ -344,7 +344,7 @@ a {
         font-size: 14px;
         line-height: 20px;
         text-align: center;
-        padinng-top 150px;
+        padding-top: 150px;
         color: #FFFFFF;
     }
 
@@ -493,7 +493,6 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0 45px 0 7px;
 }
 
 .section2-icon {
@@ -616,7 +615,7 @@ a {
 }
 .section3-description {
     margin: 3rem auto;
-    padding: 1rem 20rem;
+    padding: 0 25rem;
 }
 .section3-description-content {
     font-family: 'Source Sans Pro', sans-serif;
@@ -638,7 +637,7 @@ a {
     padding: 0 10rem 4rem 10rem;
 }
 .section3-details-container img {
-    width: 80%;
+    width: 63%;
     height: 100%;
     justify-content: space-around;
     position: relative;
