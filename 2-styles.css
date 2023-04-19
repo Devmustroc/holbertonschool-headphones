@@ -204,7 +204,6 @@ a {
     font-size: 32px;
     line-height: 40px;
     text-align: center;
-    margin-top: 350px;
     color: #FFFFFF;
 }
 .phone-subtitle {
@@ -322,24 +321,20 @@ a {
         width: 100%;
 
     }
-
     .phone-title {
         height: 40px;
-        left: 4.55%;
-        right: 4.71%;
-        top: calc(50% - 40px / 2 - 136px);
-        padding: 5px;
+        left: 10.92%;
+        right: 10.92%;
+        top: calc(50% - 40px / 2 - 113px);
         font-style: normal;
         font-weight: 700;
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 24px;
+        line-height: 32px;
         text-align: center;
-
+        margin-top: 150px;
         color: #FFFFFF;
     }
-
     .phone-subtitle {
-        height: 40px;
         left: 10.92%;
         right: 10.92%;
         top: calc(50% - 40px / 2 - 113px);
@@ -349,7 +344,7 @@ a {
         font-size: 14px;
         line-height: 20px;
         text-align: center;
-
+        padinng-top 150px;
         color: #FFFFFF;
     }
 
@@ -403,9 +398,7 @@ a {
         top: 10vh;
         right: 4rem;
         left: 4rem;
-        margin: 2rem 2rem;
         max-width: 100%;
-        padding: 1rem 2rem 4rem 2rem;
         text-align: center;;
     }
     .mobile-nav ul {
@@ -418,7 +411,7 @@ a {
         padding: 0;
     }
     .mobile-nav ul li {
-        margin: .9rem 0;
+        margin: 1rem 0;
     }
     input#icon-btn:checked ~ .mobile-nav {
         display: block;
