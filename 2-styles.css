@@ -527,7 +527,7 @@ a {
         font-size: 16px;
         line-height: 26px;
         text-align: center;
-        margin: 1rem 7rem;
+        margin: 1rem 2rem;
     }
     .section2-details-container{
         flex-wrap: wrap;
@@ -568,6 +568,7 @@ a {
     }
     .section2-description-header {
         margin-bottom: 1rem;
+
     }
     .section2-details-container{
         flex-wrap: wrap;
@@ -745,6 +746,9 @@ a {
     }
     .section3-details-container .section3-details {
         flex-wrap: wrap;
+    }
+    .section3-header {
+        padding: 1rem 3rem 1rem 3rem;
     }
 
     .section3-details-container img {
