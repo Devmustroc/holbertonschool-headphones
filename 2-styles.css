@@ -567,13 +567,13 @@ a {
         font-size: 20px;
     }
     .section2-description-header {
-        margin-bottom: 1rem;
+        margin: 1rem 2rem;
 
     }
     .section2-details-container{
         flex-wrap: wrap;
         justify-content: space-evenly;
-        padding-top: 95px;
+        padding: 1rem 4rem;
     }
     .section2-icon span {
         font-size: 5rem;
