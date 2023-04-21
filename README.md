@@ -12,7 +12,6 @@ You won’t have a lot of instruction, you are free to implement it the way that
 
 - you are not allowed to import external CSS framework (like Bootstrap)
 - you are not to use Javascript
-- ## :books: Tasks
 
 **0. Read and be familiar with Figma**
 
