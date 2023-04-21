@@ -1,7 +1,7 @@
 # Implement a design from scratch
-[Banner]()
+![Banner](https://github.com/Devmustroc/holbertonschool-headphones/blob/main/images/Readme/headphone-readme-banner.jpg?raw=true)
 
-This project was created to practice implementing a design from scratch. based on some design models given on [Figma](https://intranet.hbtn.io/rltoken/y6_o1T-HtCyTAGuOJqdA_g).
+Implementing a design from scratch, based on some design models given on [Figma](https://intranet.hbtn.io/rltoken/y6_o1T-HtCyTAGuOJqdA_g).
 
 ### Concepts
 
