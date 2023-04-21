@@ -818,7 +818,6 @@ form + label {
 .btn:active {
     transform: scale(0.98);
 }
-.
 
 .input-container input:focus,
 .input-container input:valid {
@@ -828,4 +827,84 @@ form + label {
 .input-container input:valid + label {
     display: none;
     padding: 10px 0;
+}
+@media screen and (max-width: 880px) and (min-width: 488px) {
+    .section4-contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        padding: 5rem 0 5rem 0;
+    }
+    .section4-title {
+        font-size: 32px;
+        color: #071629;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .form-wrapper form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        width: 100%;
+        margin: auto;
+    }
+    form + label {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    .input-container input {
+        background-color: transparent;
+        border: 0;
+        border-bottom: 2px rgba(7, 22, 41, 0.4) solid;
+        display: block;
+        width: 100%;
+        padding: 15px 50px;
+        font-size: 18px;
+        color: black;
+    }
+    .input-container label {
+        position: absolute;
+        left: 40%;
+        pointer-events: none;
+    }
+    .input-container input:focus,
+    .input-container input:valid {
+        outline: 0;
+        border-bottom-color: rgba(7, 22, 41, 0.4);
+    }
+
+    .input-container label span {
+        display: inline-block;
+        font-size: 18px;
+        min-width: 5px;
+        transition: 0.3s cubic-bezier(0.70, 0.55, 0.400, 1.55);
+    }
+    .btn:active {
+        transform: scale(0.98);
+    }
+
+    .input-container input:focus,
+    .input-container input:valid {
+        outline: none;
+    }
+    .input-container input:focus + label,
+    .input-container input:valid + label {
+        display: none;
+        padding: 10px 0;
+    }
+}
+@media screen and (min-width: 488px) {
+    form + label {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    .input-container label {
+        position: absolute;
+        left: 20%;
+        pointer-events: none;
+    }
 }
